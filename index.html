@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chez Mama Ngozi | Cuisine camerounaise à Douala</title>
+<meta name="description" content="Restaurant de cuisine camerounaise traditionnelle à Douala : ndolé, poisson braisé, eru. Réservez votre table.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Serif+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ===== EN-TÊTE ===== -->
+ <header class="entete">
+  <a href="#accueil" class="logo">Chez Mama Ngozi</a>
+
+  <nav class="navigation" id="menu-principal" aria-label="Navigation principale">
+    <ul>
+      <li><a href="#histoire">Notre histoire</a></li>
+      <li><a href="#carte">La carte</a></li>
+      <li><a href="#galerie">Galerie</a></li>
+      <li><a href="#infos">Infos pratiques</a></li>
+      <li><a href="#reservation" class="bouton">Réserver</a></li>
+    </ul>
+  </nav>
+
+  <button class="menu-toggle" aria-expanded="false" aria-controls="menu-principal" aria-label="Ouvrir le menu">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+  <main>
+
+    <!-- ===== ACCUEIL ===== -->
+    <section id="accueil" class="hero">
+      <p class="hero__surtitre">Cuisine camerounaise · Douala</p>
+      <h1>La cuisine de chez nous, comme à la maison.</h1>
+      <p class="hero__texte">
+        Des plats mijotés lentement, des recettes transmises de mère en fille,
+        et une table toujours ouverte.
+      </p>
+      <a href="#reservation" class="bouton">Réserver une table</a>
+    </section>
+
+    <!-- ===== NOTRE HISTOIRE ===== -->
+    <section id="histoire" class="histoire">
+      <img src="images/chef_feu.jpg" alt="Mama Ngozi en cuisine, devant ses marmites">
+      <div class="histoire__texte">
+        <h2>Notre histoire</h2>
+        <p>
+          Depuis 2008, Mama Ngozi accueille ses clients comme des membres de la famille.
+          Ici, le ndolé se prépare le matin, le poisson se braise à la commande
+          et rien n'est pressé.
+        </p>
+        <p>
+          Nous travaillons avec des producteurs de la région pour des produits frais,
+          chaque jour.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===== LA CARTE ===== -->
+    <section id="carte" class="carte">
+      <h2>La carte</h2>
+
+      <div class="carte__categorie">
+        <h3>Plats</h3>
+        <article class="plat">
+          <h4>Ndolé aux crevettes</h4>
+          <p>Feuilles amères, arachides, crevettes, accompagné de plantain ou de miondo.</p>
+          <span class="plat__prix">4 500 FCFA</span>
+        </article>
+        <article class="plat">
+          <h4>Poisson braisé</h4>
+          <p>Capitaine ou bar braisé, sauce pimentée maison, bâton de manioc.</p>
+          <span class="plat__prix">5 000 FCFA</span>
+        </article>
+        <article class="plat">
+          <h4>Eru et water fufu</h4>
+          <p>Feuilles d'eru, peau de bœuf, poisson fumé, huile de palme.</p>
+          <span class="plat__prix">4 000 FCFA</span>
+        </article>
+        <article class="plat">
+          <h4>Poulet DG</h4>
+          <p>Poulet, plantains mûrs, carottes et haricots verts sautés.</p>
+          <span class="plat__prix">5 500 FCFA</span>
+        </article>
+      </div>
+
+      <div class="carte__categorie">
+        <h3>Boissons</h3>
+        <article class="plat">
+          <h4>Jus de bissap</h4>
+          <p>Fleurs d'hibiscus, menthe, sucre de canne.</p>
+          <span class="plat__prix">1 000 FCFA</span>
+        </article>
+        <article class="plat">
+          <h4>Jus de gingembre</h4>
+          <p>Gingembre frais pressé, citron.</p>
+          <span class="plat__prix">1 000 FCFA</span>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== GALERIE ===== -->
+    <section id="galerie" class="galerie">
+      <h2>Galerie</h2>
+      <div class="galerie__grille">
+        <figure><img src="images/ndole (1).jpg" alt="Ndolé aux crevettes servi avec du plantain"></figure>
+        <figure><img src="images/poisson.jpg" alt="Poisson braisé et sauce pimentée"></figure>
+        <figure><img src="images/interieur.jpg" alt="Salle du restaurant"></figure>
+        <figure><img src="images/eru.jpg" alt="Eru et water fufu"></figure>
+        <figure><img src="images/terasse.jpg" alt="Terrasse ombragée"></figure>
+        <figure><img src="images/bissap.jpg" alt="Jus de bissap et de gingembre"></figure>
+      </div>
+    </section>
+
+    <!-- ===== INFOS PRATIQUES ===== -->
+    <section id="infos" class="infos">
+      <h2>Infos pratiques</h2>
+      <div class="infos__bloc">
+        <h3>Adresse</h3>
+        <address>
+          Rue de la Joie, Akwa<br>
+          Douala, Cameroun
+        </address>
+      </div>
+      <div class="infos__bloc">
+        <h3>Horaires</h3>
+        <ul>
+          <li>Lundi – Jeudi : 11h – 22h</li>
+          <li>Vendredi – Samedi : 11h – 23h30</li>
+          <li>Dimanche : 12h – 21h</li>
+        </ul>
+      </div>
+      <div class="infos__bloc">
+        <h3>Contact</h3>
+        <p>
+          <a href="tel:+237682709250">+237 6 82 70 92 50</a><br>
+          <a href="geremitimeni43@gmail.com">contact@chezmamangozi.cm</a>
+          <p><a href="https://wa.me/237682709250" target="_blank" rel="noopener">Ou écrivez-nous directement sur WhatsApp</a></p>
+
+        </p>
+      </div>
+      <div class="infos__carte">
+  <iframe
+    src="https://maps.google.com/maps?q=Akwa,+Douala,+Cameroun&output=embed"
+    title="Plan d'accès au restaurant"
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"
+    allowfullscreen>
+  </iframe>
+</div>
+    </section>
+
+    <!-- ===== RÉSERVATION ===== -->
+    <section id="reservation" class="reservation">
+      <h2>Réserver une table</h2>
+      <p>Remplissez le formulaire ou écrivez-nous directement sur WhatsApp.</p>
+
+      <form class="formulaire" id="formulaire-reservation">
+        <div class="champ">
+          <label for="nom">Nom complet</label>
+          <input type="text" id="nom" name="nom" required>
+        </div>
+        <div class="champ">
+          <label for="telephone">Téléphone</label>
+          <input type="tel" id="telephone" name="telephone" required>
+        </div>
+        <div class="champ">
+          <label for="date">Date</label>
+          <input type="date" id="date" name="date" required>
+        </div>
+        <div class="champ">
+          <label for="heure">Heure</label>
+          <input type="time" id="heure" name="heure" required>
+        </div>
+        <div class="champ">
+          <label for="personnes">Nombre de personnes</label>
+          <input type="number" id="personnes" name="personnes" min="1" max="20" value="2" required>
+        </div>
+        <div class="champ">
+          <label for="message">Message (facultatif)</label>
+          <textarea id="message" name="message" rows="4"></textarea>
+        </div>
+        <button type="submit" class="bouton">Envoyer sur WhatsApp</button>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- ===== PIED DE PAGE ===== -->
+  <footer class="pied">
+    <p class="logo">Chez Mama Ngozi</p>
+    <p>© 2026 Chez Mama Ngozi. Tous droits réservés.</p>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
